@@ -22,9 +22,9 @@ You will need:
     
 ## Running The Program<br />
 
-1.) You will need to navigate to you workspace in the SafeDrive folder to open the project<br />
+1.) You will need to navigate to you 'Watch My Back.xcworkspace' in the SafeDrive repository to open the project<br />
 	- For example, I would type in the URL 'http://localhost:5000'<br />
-2.) Next you will simply need to select 'iPhone XS' as the simulator build<br />
+2.) Next you will need to select 'iPhone XS' as the simulator build<br />
 3.) Lastly, you will need to hit the play button to run the simulator and experience the app!<br />
 
 ## Built With

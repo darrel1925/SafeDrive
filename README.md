@@ -14,10 +14,10 @@ You will need:
 1.) You will need to download the 'SafeDrive' repsitory<br />
 2.) Download the [Xcode] (https://developer.apple.com/xcode/) from the app store if you would like to run the appplication in a simulator<br />
 3.) In oder to recieve the full functionality of this application, you will need: <br /><br />
-    - ACCOUNT_SID = "ACCOUNT_SID"
-    - AUTH_TOKEN = "AUTH_TOKEN"
-    - TWILIO_NUM = "TWILIO_NUM"
-    - PERSONAL_NUM = "PERSONAL_NUM"
+    - ACCOUNT_SID = "ACCOUNT_SID"<br />
+    - AUTH_TOKEN = "AUTH_TOKEN"<br />
+    - TWILIO_NUM = "TWILIO_NUM"<br />
+    - PERSONAL_NUM = "PERSONAL_NUM"<br />
     Which can all be found once you create an account with [Twilio](https://Twilio.com/console)<br />
     - Your specific information will need to be included into the beinning 'Watch My Back.xcworkspace' View Controller<br /><br />
     
@@ -50,11 +50,14 @@ For example, If I had saved both 'Ottomotive' and 'pythonsdkmaster' to my deskto
 
 ## Authors
 
-* **Ryan Shu** - *Backend-Programming/html-programming* - [Git](https://github.com/ryanshuzzz)
-* **Darrel Muonekwu** - *Backend-Programming/html-programming* - [Git](https://github.com/darrel1925)
-* **Mylinh Pham** - *html design/Frontend-Programming* - [Git](https://github.com/darrel1925)
-* **Scott Sanchez** - *Website-Design* -
+* **Darrel Muonekwu** - *Swift/Xcode/Backend-Programming* - [Git](https://github.com/darrel1925) [LinkedIn][https://www.linkedin.com/in/darrelmuonekwu/]
+* **Michaela Poblete** - *Javascript/CSS design/Frontend-Programming* - [Git](https://github.com/mhpoblet?tab=repositories)[LinkedIn](https://www.linkedin.com/in/michaela-poblete/)
+* **Derek Lee** - *Javascript/CSS design/Frontend-Programming - [LinkedIn](https://www.linkedin.com/in/derek-lee-tech/)
 See also the list of [contributors](https://github.com/ryanshuzzz/ottomotive/contributors) who participated in this project.
+
+### Special Thanks To 
+* **Elizabeth (Lizzie) Siegle** - *Developer Evangelist @ Twilio [LinkedIn](https://www.linkedin.com/in/elsiegle/)
+* **Lorman Lau** - Android Developer @ DisplayRide [LinedIn](https://www.linkedin.com/in/lorman-lau-873b21b4/)
 
 ## License
 

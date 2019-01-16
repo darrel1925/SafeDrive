@@ -1,0 +1,6 @@
+framework module Pods_Watch_My_Back {
+  umbrella header "Pods-Watch My Back-umbrella.h"
+
+  export *
+  module * { export * }
+}

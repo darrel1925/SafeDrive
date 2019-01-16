@@ -1,0 +1,29 @@
+ACCOUNT_SID = "AC1fb80057b60fd715959db31c6932e95a"
+    let AUTH_TOKEN = "127998cc4d499505506d00ebaafda1de"
+    lazy var URL = "https://api.twilio.com/2010-04-01/Accounts/\(ACCOUNT_SID)/Messages"
+TWILIO_NUM = "16692019552"
+PERSONAL_NUM = "19258488396"
+
+
+CLIENT_ID = "f2a715c7-c0d9-4263-8e00-0ffa305fa163"
+CLIENT_SECRET = "dfb30faa-bf99-43b1-ae91-7d3085b25dae"
+REDIRECT_URI = "http://localhost:5000/callback"
+or
+REDIRECT_URI = "scf2a715c7-c0d9-4263-8e00-0ffa305fa163://localhost:5000/callback"
+
+
+
+
+
+
+    let ACCOUNT_SID = "AC1fb80057b60fd715959db31c6932e95a"
+    let AUTH_TOKEN = "127998cc4d499505506d00ebaafda1de"
+    lazy var URL = "https://api.twilio.com/2010-04-01/Accounts/\(ACCOUNT_SID)/Messages"
+    let TWILIO_NUM = "16692019552"
+    let PERSONAL_NUM = "19258488396"
+    
+    let APP_SERVER = "https://api.smartcar.com/v1.0"
+    let CLIENT_ID = "f2a715c7-c0d9-4263-8e00-0ffa305fa163"
+    let CLIENT_SECRET = "dfb30faa-bf99-43b1-ae91-7d3085b25dae"
+    lazy var REDIRECT_URI = "sc\(CLIENT_ID)://safedrive"
+    

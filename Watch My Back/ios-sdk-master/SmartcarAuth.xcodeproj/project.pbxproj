@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A404918AA733D5C515461D1 /* Pods_SmartcarAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAA204EE2149B6149D518EC /* Pods_SmartcarAuth.framework */; };
+		711AE9E69D3DBEF9B1100D51 /* Pods_SmartcarAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E61CCCB5200A0A9CE8E787 /* Pods_SmartcarAuthTests.framework */; };
+		ABEC5D68BE814D4A22EE5227 /* Pods_SmartcarAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9C79A208EC6D600382753 /* Pods_SmartcarAuthTests.framework */; };
+		F80C4ABD208E54AE00F8C47F /* SmartcarAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F9288F1E2B2F6B009F07E5 /* SmartcarAuthTests.swift */; };
+		F85ABF81208C191D00FB2F3E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F85ABF80208C191D00FB2F3E /* Podfile */; };
+		F85ABF82208C196200FB2F3E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F85ABF80208C191D00FB2F3E /* Podfile */; };
+		F85EC7711E4144A8003575F6 /* AuthorizationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85EC7701E4144A8003575F6 /* AuthorizationError.swift */; };
+		F8C9C79B208EC6D600382753 /* Pods_SmartcarAuthTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C9C79A208EC6D600382753 /* Pods_SmartcarAuthTests.framework */; };
+		F8F9288B1E2B2F6B009F07E5 /* SmartcarAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F928811E2B2F6A009F07E5 /* SmartcarAuth.framework */; };
+		F8F928921E2B2F6B009F07E5 /* SmartcarAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F928841E2B2F6A009F07E5 /* SmartcarAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F928AE1E2B2FED009F07E5 /* SmartcarAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F928A31E2B2FED009F07E5 /* SmartcarAuth.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8F9288C1E2B2F6B009F07E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F928781E2B2F6A009F07E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F928801E2B2F6A009F07E5;
+			remoteInfo = SmartCarOAuthSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27E61CCCB5200A0A9CE8E787 /* Pods_SmartcarAuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartcarAuthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E81CE39269597B8418C7C0 /* Pods-SmartcarAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartcarAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartcarAuth/Pods-SmartcarAuth.release.xcconfig"; sourceTree = "<group>"; };
+		8364B99DE3988F4714D06ED1 /* Pods-SmartcarAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartcarAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartcarAuth/Pods-SmartcarAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		B06E3582ED1597AA5389FE57 /* Pods-SmartcarAuthTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartcarAuthTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartcarAuthTests/Pods-SmartcarAuthTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD668AF997F2B3DDFDBE6656 /* Pods-SmartcarAuthTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartcarAuthTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartcarAuthTests/Pods-SmartcarAuthTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFAA204EE2149B6149D518EC /* Pods_SmartcarAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartcarAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85ABF80208C191D00FB2F3E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F85EC7701E4144A8003575F6 /* AuthorizationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationError.swift; sourceTree = "<group>"; };
+		F8C9C79A208EC6D600382753 /* Pods_SmartcarAuthTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SmartcarAuthTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F928811E2B2F6A009F07E5 /* SmartcarAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartcarAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F928841E2B2F6A009F07E5 /* SmartcarAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartcarAuth.h; sourceTree = "<group>"; };
+		F8F928851E2B2F6A009F07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F9288A1E2B2F6B009F07E5 /* SmartcarAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartcarAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F9288F1E2B2F6B009F07E5 /* SmartcarAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartcarAuthTests.swift; sourceTree = "<group>"; };
+		F8F928911E2B2F6B009F07E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F928A31E2B2FED009F07E5 /* SmartcarAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartcarAuth.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F9287D1E2B2F6A009F07E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C9C79B208EC6D600382753 /* Pods_SmartcarAuthTests.framework in Frameworks */,
+				3A404918AA733D5C515461D1 /* Pods_SmartcarAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F928871E2B2F6B009F07E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F9288B1E2B2F6B009F07E5 /* SmartcarAuth.framework in Frameworks */,
+				711AE9E69D3DBEF9B1100D51 /* Pods_SmartcarAuthTests.framework in Frameworks */,
+				ABEC5D68BE814D4A22EE5227 /* Pods_SmartcarAuthTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74EEDAD8CB0F3464D2D534A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C9C79A208EC6D600382753 /* Pods_SmartcarAuthTests.framework */,
+				DFAA204EE2149B6149D518EC /* Pods_SmartcarAuth.framework */,
+				27E61CCCB5200A0A9CE8E787 /* Pods_SmartcarAuthTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983E52F77135954D8184B267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8364B99DE3988F4714D06ED1 /* Pods-SmartcarAuth.debug.xcconfig */,
+				41E81CE39269597B8418C7C0 /* Pods-SmartcarAuth.release.xcconfig */,
+				BD668AF997F2B3DDFDBE6656 /* Pods-SmartcarAuthTests.debug.xcconfig */,
+				B06E3582ED1597AA5389FE57 /* Pods-SmartcarAuthTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8F928771E2B2F6A009F07E5 = {
+			isa = PBXGroup;
+			children = (
+				F85ABF80208C191D00FB2F3E /* Podfile */,
+				F8F928821E2B2F6A009F07E5 /* Products */,
+				F8F928831E2B2F6A009F07E5 /* SmartcarAuth */,
+				F8F9288E1E2B2F6B009F07E5 /* SmartcarAuthTests */,
+				983E52F77135954D8184B267 /* Pods */,
+				74EEDAD8CB0F3464D2D534A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F928821E2B2F6A009F07E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F928811E2B2F6A009F07E5 /* SmartcarAuth.framework */,
+				F8F9288A1E2B2F6B009F07E5 /* SmartcarAuthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F928831E2B2F6A009F07E5 /* SmartcarAuth */ = {
+			isa = PBXGroup;
+			children = (
+				F85EC7701E4144A8003575F6 /* AuthorizationError.swift */,
+				F8F928851E2B2F6A009F07E5 /* Info.plist */,
+				F8F928841E2B2F6A009F07E5 /* SmartcarAuth.h */,
+				F8F928A31E2B2FED009F07E5 /* SmartcarAuth.swift */,
+			);
+			path = SmartcarAuth;
+			sourceTree = "<group>";
+		};
+		F8F9288E1E2B2F6B009F07E5 /* SmartcarAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F928911E2B2F6B009F07E5 /* Info.plist */,
+				F8F9288F1E2B2F6B009F07E5 /* SmartcarAuthTests.swift */,
+			);
+			path = SmartcarAuthTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8F9287E1E2B2F6A009F07E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F928921E2B2F6B009F07E5 /* SmartcarAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8F928801E2B2F6A009F07E5 /* SmartcarAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F928951E2B2F6B009F07E5 /* Build configuration list for PBXNativeTarget "SmartcarAuth" */;
+			buildPhases = (
+				D8883AFEA3976721048A426A /* [CP] Check Pods Manifest.lock */,
+				F8F9287C1E2B2F6A009F07E5 /* Sources */,
+				F8F9287D1E2B2F6A009F07E5 /* Frameworks */,
+				F8F9287E1E2B2F6A009F07E5 /* Headers */,
+				F8F9287F1E2B2F6A009F07E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartcarAuth;
+			productName = SmartCarOAuthSDK;
+			productReference = F8F928811E2B2F6A009F07E5 /* SmartcarAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8F928891E2B2F6B009F07E5 /* SmartcarAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F928981E2B2F6B009F07E5 /* Build configuration list for PBXNativeTarget "SmartcarAuthTests" */;
+			buildPhases = (
+				113C8BB0D3E2C4DD3C17F3EF /* [CP] Check Pods Manifest.lock */,
+				F8F928861E2B2F6B009F07E5 /* Sources */,
+				F8F928871E2B2F6B009F07E5 /* Frameworks */,
+				F8F928881E2B2F6B009F07E5 /* Resources */,
+				8459021C4B68AA1C31288073 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F9288D1E2B2F6B009F07E5 /* PBXTargetDependency */,
+			);
+			name = SmartcarAuthTests;
+			productName = SmartCarOAuthSDKTests;
+			productReference = F8F9288A1E2B2F6B009F07E5 /* SmartcarAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F928781E2B2F6A009F07E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "SmartCar Inc.";
+				TargetAttributes = {
+					F8F928801E2B2F6A009F07E5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EE32J27TKP;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+					F8F928891E2B2F6B009F07E5 = {
+						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8F9287B1E2B2F6A009F07E5 /* Build configuration list for PBXProject "SmartcarAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F928771E2B2F6A009F07E5;
+			productRefGroup = F8F928821E2B2F6A009F07E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F928801E2B2F6A009F07E5 /* SmartcarAuth */,
+				F8F928891E2B2F6B009F07E5 /* SmartcarAuthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F9287F1E2B2F6A009F07E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85ABF81208C191D00FB2F3E /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F928881E2B2F6B009F07E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85ABF82208C196200FB2F3E /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113C8BB0D3E2C4DD3C17F3EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartcarAuthTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8459021C4B68AA1C31288073 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartcarAuthTests/Pods-SmartcarAuthTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartcarAuthTests/Pods-SmartcarAuthTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8883AFEA3976721048A426A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartcarAuth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F9287C1E2B2F6A009F07E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85EC7711E4144A8003575F6 /* AuthorizationError.swift in Sources */,
+				F8F928AE1E2B2FED009F07E5 /* SmartcarAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F928861E2B2F6B009F07E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C4ABD208E54AE00F8C47F /* SmartcarAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F9288D1E2B2F6B009F07E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F928801E2B2F6A009F07E5 /* SmartcarAuth */;
+			targetProxy = F8F9288C1E2B2F6B009F07E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8F928931E2B2F6B009F07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8F928941E2B2F6B009F07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8F928961E2B2F6B009F07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8364B99DE3988F4714D06ED1 /* Pods-SmartcarAuth.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EE32J27TKP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = SmartcarAuth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcar.SmartCarOAuthSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F8F928971E2B2F6B009F07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E81CE39269597B8418C7C0 /* Pods-SmartcarAuth.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EE32J27TKP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = SmartcarAuth/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcar.SmartCarOAuthSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F8F928991E2B2F6B009F07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD668AF997F2B3DDFDBE6656 /* Pods-SmartcarAuthTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = SmartcarAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcar.SmartCarOAuthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F8F9289A1E2B2F6B009F07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06E3582ED1597AA5389FE57 /* Pods-SmartcarAuthTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				INFOPLIST_FILE = SmartcarAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartcar.SmartCarOAuthSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F9287B1E2B2F6A009F07E5 /* Build configuration list for PBXProject "SmartcarAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F928931E2B2F6B009F07E5 /* Debug */,
+				F8F928941E2B2F6B009F07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F928951E2B2F6B009F07E5 /* Build configuration list for PBXNativeTarget "SmartcarAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F928961E2B2F6B009F07E5 /* Debug */,
+				F8F928971E2B2F6B009F07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F928981E2B2F6B009F07E5 /* Build configuration list for PBXNativeTarget "SmartcarAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F928991E2B2F6B009F07E5 /* Debug */,
+				F8F9289A1E2B2F6B009F07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F928781E2B2F6A009F07E5 /* Project object */;
+}

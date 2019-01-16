@@ -1,31 +1,25 @@
-# Ottomotive
+# SafeDrive
+##### Drive Safer Now.
+SafeDrive is an aplpication made to live on the dashboards of the cars of the future. If a user feels that the car behind them is using their high beams and/or tailgating them, the user can use the dashboard of their car and/or their mobile device to send messages through Twilio's API to the driver who is doing this. There is also authentication to check that the driver in question is actually using their high beams and/or tailgating them. This authentication uses machine learning and hardware.
 
-Ottomotive is a mock sharing-economy company with a mission of empowering those who don't have access to cars with an opportunity to make an income! We used Smartcar's API to access information from smart cars to create the interface for a web application that would allow its users to grant other users access to their vehicle in order to drive or Uber, Lyft, or for another ridesharing or diving company, earning income for themselves as well as those who are renting out their cars. 
+In [this link](https://devpost.com/software/safedrive-5obqky), you will find the images of the initial designs and further details for our application!.<br />
 
-In [this link](https://sachacks.hackerearth.com/sprints/sachacks/dashboard/e94f6e2/submission/), you will find the initial designs for our webpage starting from the 4th picture onward.<br />
-
-Unfortuanlety, this project was concieved and excuted in one night so our sebsite is NOT fully functioning at this time.
+If you decide to spend some time looking over the code, you will find multiple refernces to SmartCars API. Becasue the project was made over ther course of one day we the full implemtation of the API is unfinished at this time.
 
 
 ## Getting Started
 
 
 You will need:  
-1.) Download the 'Ottomotive' file from the repsitory<br />
-2.) Download the [pythonsdkmaster](https://github.com/smartcar/python-sdk) from the Smartcar repsitory<br />
-3.) Install PIP:  If you’re using Python 2.7.9 (or greater) or Python 3.4 (or greater), then PIP comes installed with Python by default. If you’re using an older version of Python, you’ll need to use the installation described in [this link](https://packaging.python.org/tutorials/installing-packages).<br /><br />
-4.) Install tornado using pip your Command Line using the command:  
-	```
-    >>> pip install tornado
-	```
-	<br /><br />
-5.) You will also need to know your <br />
-    - Client ID<br />
-    - Client Secret<br />
-    - Redirect URIs<br />
-    Which can all be found once you create an account with [Smartcar](https://smartcar.com/)<br />
-    - Your specific information will need to be included into the beinning 'Ottmotive.py' file<br /><br />
-6.) You will aslo need need to download Smartcar's [Python SDK](https://github.com/smartcar/python-sdk)<br /><br />
+1.) You will need to download the 'SafeDrive' repsitory<br />
+2.) Download the [Xcode] (https://developer.apple.com/xcode/) from the app store if you would like to run the appplication in a simulator<br />
+3.) In oder to recieve the full functionality of this application, you will need: <br /><br />
+    - ACCOUNT_SID = "ACCOUNT_SID"
+    - AUTH_TOKEN = "AUTH_TOKEN"
+    - TWILIO_NUM = "TWILIO_NUM"
+    - PERSONAL_NUM = "PERSONAL_NUM"
+    Which can all be found once you create an account with [Twilio](https://Twilio.com/console)<br />
+    - Your specific information will need to be included into the beinning 'Watch My Back.xcworkspace' View Controller<br /><br />
     
 ### Installing
 In your Command Line:<br />
@@ -47,9 +41,11 @@ For example, If I had saved both 'Ottomotive' and 'pythonsdkmaster' to my deskto
 
 ## Built With
 
-* [Tornado](https://www.tornadoweb.org/) - The web framework used
-* [Python](https://www.python.org/) - Used to fetch vehicle information
-* [smartcar](https://smartcar.com/) - Used to get all car ingo
+* [Google Firebase](https://firebase.google.com/) - A development platform 
+* [Twilio API](https://Twilio.com/console) - A  cloud communications platform
+* [Swift](https://swift.org/blog/swift-4-0-released/) - Used write the functionallity of the application
+* [Xcode](https://developer.apple.com/xcode/) - Used lay out and format the interface of the application
+* [Alamofire](https://github.com/Alamofire/Alamofire) - A Swift-based HTTP networking library that assists in developers in making network requests
 
 
 ## Authors

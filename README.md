@@ -1,6 +1,6 @@
 # SafeDrive
 ##### Drive Safer Now.
-SafeDrive is an aplpication made to live on the dashboards of the cars of the future. If a user feels that the car behind them is using their high beams and/or tailgating them, the user can use the dashboard of their car and/or their mobile device to send messages through Twilio's API to the driver who is doing this. There is also authentication to check that the driver in question is actually using their high beams and/or tailgating them. This authentication uses machine learning and hardware.
+SafeDrive is an aplpication made to live in the dashboards of the cars of the future. It was designed to facilitate car to car communication while driving. If a user feels that the car behind them is using their high beams and/or tailgating them, the user can use the dashboard of their car to send messages through Twilio's API to the driver who is doing this. There is also authentication to check that the driver in question is actually using their high beams and/or tailgating them. This authentication uses machine learning and hardware.
 
 In [this link](https://devpost.com/software/safedrive-5obqky), you will find the images of the initial designs and further details for our application!.<br />
 
@@ -8,7 +8,6 @@ If you decide to spend some time looking over the code, you will find multiple r
 
 
 ## Getting Started
-
 
 You will need:  
 1.) You will need to download the 'SafeDrive' repsitory<br />
@@ -21,23 +20,12 @@ You will need:
     Which can all be found once you create an account with [Twilio](https://Twilio.com/console)<br />
     - Your specific information will need to be included into the beinning 'Watch My Back.xcworkspace' View Controller<br /><br />
     
-### Installing
-In your Command Line:<br />
-1.) Navigate to the directoy where the file is saved:<br />
-2.) Begin the program<br /><br />
-
-For example, If I had saved both 'Ottomotive' and 'pythonsdkmaster' to my desktop, to begin the program I would run the command:
-
-```
->>> cd '/Users/darrelm/Desktop/Ottomotive/'
->>> python run.py
-```
 ## Running The Program<br />
 
-1.) You will need to navigate to you default webbrowser and type in the you local host name<br />
+1.) You will need to navigate to you workspace in the SafeDrive folder to open the project<br />
 	- For example, I would type in the URL 'http://localhost:5000'<br />
-2.) You will be redireted to a page that asks if you allow Smartcar access to your (demo) vehicle's information<br />
-3.) Assumung you click yes, you will be redirected to our Ottomitve webpage<br />
+2.) Next you will simply need to select 'iPhone XS' as the simulator build<br />
+3.) Lastly, you will need to hit the play button to run the simulator and experience the app!<br />
 
 ## Built With
 
@@ -58,8 +46,8 @@ See also the list of [contributors](https://github.com/ryanshuzzz/ottomotive/con
 
 ### Very Special Thanks To 
 ##### For helping to andwer all of our questions and guide us thoughout the project
-* **Elizabeth (Lizzie) Siegle** - *Developer Evangelist @ Twilio [LinkedIn](https://www.linkedin.com/in/elsiegle/)
-* **Lorman Lau** - Android Developer @ DisplayRide [LinedIn](https://www.linkedin.com/in/lorman-lau-873b21b4/)
+* **Elizabeth (Lizzie) Siegle** - Developer Evangelist @ Twilio  [LinkedIn](https://www.linkedin.com/in/elsiegle/)
+* **Lorman Lau** - Android Developer @ DisplayRide  [LinedIn](https://www.linkedin.com/in/lorman-lau-873b21b4/)
 
 ## License
 

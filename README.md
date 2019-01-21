@@ -1,6 +1,6 @@
 # SafeDrive
 ##### Drive Safer Now.
-SafeDrive is an aplpication made to live in the dashboards of the cars of the future! It was designed to facilitate car-to-car communication while driving. If a user feels that the car behind them is using their high beams and/or tailgating them, the user can use the dashboard of their car to send messages through Twilio's API to the driver who is doing this. There is also authentication to check that the driver in question is actually using their high beams and/or tailgating them. This authentication uses machine learning and hardware.
+SafeDrive is an application made to live in the dashboards of the cars of the future! It was designed to facilitate car-to-car communication while driving. If a user feels that the car behind them is using their high beams and/or tailgating them, the user can use the dashboard of their car to send messages through Twilio's API to the driver who is doing this. There is also authentication to check that the driver in question is actually using their high beams and/or tailgating them. This authentication uses machine learning and hardware.
 
 In [this link](https://devpost.com/software/safedrive-5obqky), you will find the images of the initial designs and further details for our application!.<br />
 
